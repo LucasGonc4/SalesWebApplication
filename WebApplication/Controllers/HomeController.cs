@@ -17,7 +17,8 @@ namespace WebApplication.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Projeto 'Sales web MVC App from C# Course'";
+            ViewData["Estudante"] = "Lucas Gonçalves";
 
             return View();
         }
